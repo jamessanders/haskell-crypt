@@ -1,0 +1,17 @@
+Name:                crypt
+Version:             0.1
+Synopsis:            Haskell bindings for crypt()
+License:             BSD3
+License-file:        LICENSE
+Author:              James Sanders
+Maintainer:          jimmyjazz14@gmail.com
+Category:            System
+Build-type:          Simple
+Cabal-version:       >=1.2
+
+Library
+  -- Modules exported by the library.
+  Exposed-modules:     System.Posix.Crypt
+  Build-depends: base      
+  ghc-options: -Wall -O2
+  extra-libraries: crypt         
